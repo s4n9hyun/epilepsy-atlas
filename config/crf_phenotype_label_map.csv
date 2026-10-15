@@ -1,0 +1,10 @@
+gene,canonical_value,crf_phenotype,crf_phenotype_subcategory,notes
+SCN1A,Generalized epilepsy with febrile seizure plus (GEFS+),GEFS+ (Generalized epilepsy with febrile seizure plus),,Label used in 20260923 professor CRF.
+SCN1A,GEFS+,GEFS+ (Generalized epilepsy with febrile seizure plus),,Label used in 20260923 professor CRF.
+SCN1A,Non-seizure / seizure never reported,Non-seizure (seizure never reported),,Label used in 20260923 professor CRF.
+EEF1A2,Non-seizure types,Non-seizure type,,Label used in 20260923 professor CRF.
+SYNGAP1,Generalized epilepsy,Generalized epilepsy,,SYNGAP1 CRF uses Phenotype + Phenotype_subcategory.
+SYNGAP1,Myoclonic astatic epilepsy / myoclonic atonic epilepsy,Generalized epilepsy,Myoclonic astatic/atonic epilepsy,SYNGAP1 CRF uses Phenotype + Phenotype_subcategory.
+SYNGAP1,Early onset absence epilepsy,Generalized epilepsy,Early onset absence epilepsy,SYNGAP1 CRF uses Phenotype + Phenotype_subcategory.
+SYNGAP1,Other epilepsy,Other epilepsy,,SYNGAP1 CRF uses Phenotype + Phenotype_subcategory.
+SYNGAP1,Non-seizure types,No epilepsy,,SYNGAP1 CRF uses Phenotype + Phenotype_subcategory.

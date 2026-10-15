@@ -1,0 +1,33 @@
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+# Research inputs and operational state
+/databases/
+/article_files/
+/external_dataset_links/
+/outputs/
+/runs/
+/backups/
+/feedback/
+/local_state/
+/archive/
+/data/*
+!/data/README.md
+/config/manual_*.csv
+/config/canonical_id_locks/
+/config/reserved_canonical_ids/
+# Generated analysis outputs and manuscript assets
+/paper/figures/
+/paper/tables/
+/paper/manuscript/
+/paper/analysis/*.csv
+/paper/analysis/results.json
+*.log
+*.sqlite*
+*.db
+*.pdf

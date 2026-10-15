@@ -1,0 +1,87 @@
+{
+  "data_date": "2026-10-07",
+  "manuscript_corrections": "2026-10-16",
+  "patients": 11982,
+  "patient_variant_rows": 12041,
+  "families": 11291,
+  "files": [
+    {
+      "gene": "SCN1A",
+      "sha256": "e89a1f8166af375bacfd71541a85efbeab1829dfdec688b869d9a6e250879be2",
+      "rows": 5035,
+      "filename": "SCN1A_canonical_patients_20261007_112748.csv"
+    },
+    {
+      "gene": "SCN2A",
+      "sha256": "1ebbedb9aaf9b2ca0936e93cee24e1ad69587156a47ec2cee5ef1687e9d90e6e",
+      "rows": 876,
+      "filename": "SCN2A_canonical_patients_20261007_112809.csv"
+    },
+    {
+      "gene": "SCN8A",
+      "sha256": "820293ac1abaea900d700317285214e4c19db6932f1303f2c624deda75868fda",
+      "rows": 814,
+      "filename": "SCN8A_canonical_patients_20261007_094254.csv"
+    },
+    {
+      "gene": "KCNQ2",
+      "sha256": "1f07aeb6d522d9dd4bf0a37542bc5878019e140640de42661dfc2db52a88804c",
+      "rows": 1407,
+      "filename": "KCNQ2_canonical_patients_20261007_112734.csv"
+    },
+    {
+      "gene": "KCNT1",
+      "sha256": "2a68cf05f166c6c84d28dbccd1f444caa8ede5854618aebd5d6c4a03d79b7665",
+      "rows": 390,
+      "filename": "KCNT1_canonical_patients_20261007_112741.csv"
+    },
+    {
+      "gene": "CDKL5",
+      "sha256": "8dde8ca6cdec0b9c646c5e5a6cdd938dc6182a22799ccf72d18f1960853d7883",
+      "rows": 1061,
+      "filename": "CDKL5_canonical_patients_20261007_112726.csv"
+    },
+    {
+      "gene": "PCDH19",
+      "sha256": "8754429658fc3c670b5a4c8e75c4f00495a6f0e66a898b3076bae6215ab04452",
+      "rows": 689,
+      "filename": "PCDH19_canonical_patients_20261007_112744.csv"
+    },
+    {
+      "gene": "STXBP1",
+      "sha256": "f9a9581420cc237b1aaf0e11b453ae0f4aac6df0833fa464f055eb4545069621",
+      "rows": 795,
+      "filename": "STXBP1_canonical_patients_20261007_112815.csv"
+    },
+    {
+      "gene": "SYNGAP1",
+      "sha256": "27db99e39a2c323c8839eb90ff5d11ac1cd682b63c0ab8c386adffd46b2665f7",
+      "rows": 493,
+      "filename": "SYNGAP1_canonical_patients_20261007_094306.csv"
+    },
+    {
+      "gene": "GABRA1",
+      "sha256": "ba365d5e713e1252434c69a81069c52db44d1bc890daeb5d8cbeb50f9e6f626d",
+      "rows": 192,
+      "filename": "GABRA1_canonical_patients_20261007_082603.csv"
+    },
+    {
+      "gene": "FOXG1",
+      "sha256": "ef99474d9e662d188718d5ce029c61b3e5bdb4e6e838d1e23e57f1c83a4098b9",
+      "rows": 134,
+      "filename": "FOXG1_canonical_patients_20261007_112732.csv"
+    },
+    {
+      "gene": "SMC1A",
+      "sha256": "821655ee6afb528d7eb0bf281a0c6f9a969e48688f31ca357b48a0946ab93ac8",
+      "rows": 73,
+      "filename": "SMC1A_canonical_patients_20261007_094259.csv"
+    },
+    {
+      "gene": "EEF1A2",
+      "sha256": "b7e584ac71a412c922674ced2e1ef3131790b99c6363d6f8c4432b7e7cee0d0d",
+      "rows": 82,
+      "filename": "EEF1A2_canonical_patients_20261007_094200.csv"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+gene,mention_id,pmid,crf_patient_id,phenotype_subcategory,source
+SYNGAP1,654,32336485,SYNGAP1_039,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,295,31395010,SYNGAP1_208,Not specified,CRF 통합본 0904 임상의 입력
+SYNGAP1,297,31395010,SYNGAP1_213,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,311,31025938,SYNGAP1_220,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,964,41914539,SYNGAP1_294,epileptic spasms,CRF 통합본 0904 임상의 입력
+SYNGAP1,1088,38045990,SYNGAP1_027,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,1096,38045990,SYNGAP1_064,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,1093,38045990,SYNGAP1_111,epileptic spasms,CRF 통합본 0904 임상의 입력
+SYNGAP1,1095,38045990,SYNGAP1_118,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,1087,38045990,SYNGAP1_130,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,1090,38045990,SYNGAP1_174,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,1094,38045990,SYNGAP1_212,epileptic spasms,CRF 통합본 0904 임상의 입력
+SYNGAP1,1089,38045990,SYNGAP1_214,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,1085,38045990,SYNGAP1_217,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,1091,38045990,SYNGAP1_259,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,1092,38045990,SYNGAP1_261,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,1084,38045990,SYNGAP1_301,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,1086,38045990,SYNGAP1_316,Unknowned seizure type,CRF 통합본 0904 임상의 입력
+SYNGAP1,395,23708187,SYNGAP1_356,focal seizure,CRF 통합본 0904 임상의 입력
+SYNGAP1,451,37915395,SYNGAP1_201,focal seizure,CRF 통합본 0904 임상의 입력
+SYNGAP1,191,34924933,SYNGAP1_028,epileptic spasms,CRF 통합본 0904 임상의 입력
+SYNGAP1,195,34924933,SYNGAP1_065,epileptic spasms,CRF 통합본 0904 임상의 입력
+SYNGAP1,512,37272175,SYNGAP1_004,focal seizure,CRF 통합본 0904 임상의 입력

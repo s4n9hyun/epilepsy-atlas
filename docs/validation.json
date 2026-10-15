@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-16",
+  "environment": "fresh Python 3.13 virtual environment, macOS arm64",
+  "dependency_install": "passed",
+  "pip_check": "passed",
+  "regression_tests": {"passed": 5, "failed": 0},
+  "offline_snapshot_and_figure1": "passed",
+  "python_compile_check": "passed",
+  "extraction_and_curation_cli_help": "passed",
+  "staged_secret_personal_path_and_excluded_input_scan": "passed",
+  "limitations": [
+    "No live extraction or paid API calls were run.",
+    "No full patient-data or manuscript build was attempted.",
+    "No distributable patient-level data package is included.",
+    "Source-review prompt files describe the original review workflow and require task-specific substitution.",
+    "Open-source license and final paper citation remain to be selected before public release."
+  ]
+}

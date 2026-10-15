@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the version of this repository used in your work. Manuscript DOI will be added after publication."
+title: "Epilepsy atlas: literature extraction, curation and analysis code"
+type: software
+authors:
+  - family-names: Lee
+    given-names: Sanghyun
+version: 0.1.0
+repository-code: "https://github.com/s4n9hyun/epilepsy-atlas"
