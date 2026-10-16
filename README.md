@@ -31,6 +31,10 @@ The last command validates the frozen aggregate results and regenerates Figure 1
 | `docs/` | Data dictionary, historical curation policy and source-code provenance |
 | `tests/` | Regression tests for denominators, outcome partitions, family counting and data-free imports |
 
+## Historical agent execution
+
+See [Agent execution environment, concurrency, time and cost](docs/agent_execution.md) for the recovered Claude Code CLI/model versions, eight-agent source-review batches, 23-process extraction launch, observed event windows and recorded cost counters. It distinguishes client cost estimates from actual bills and documents unrecovered costs. Supporting metadata and an audit script are included; raw conversations remain local.
+
 ## Frozen manuscript versus current code
 
 The manuscript uses the **2026-10-07** data snapshot: 11,982 canonical patients, 12,041 patient–variant rows, 1,437 articles and 11,291 patient-derived families. Aggregate results include the **2026-10-16** consistency corrections. The source code was copied from the working project on 2026-10-16 and may contain later curation utilities; this is not a claim that the current extraction model or every script exactly recreates the historical extraction run.

@@ -1,0 +1,24 @@
+{
+  "reconstructed_on": "2026-10-16",
+  "basis": "Historical workspace workflow log and per-run README/launcher records",
+  "extraction": {
+    "date": "2026-09-28",
+    "model": "gpt-6-sol",
+    "launcher": "Bash launching Python processes using OpenAI Responses API",
+    "initial_processes": 23,
+    "gene_article_entries": 1539,
+    "recorded_start_local": "11:19",
+    "recorded_end_local": "15:35",
+    "calendar_minutes": 256,
+    "timezone_offset_in_log": null,
+    "quota_interruptions_local": ["12:22", "14:47"],
+    "billed_cost_usd": null,
+    "cost_status": "not recovered; no cost inferred from planned token counts"
+  },
+  "source_review": {
+    "six_gene_remaining_batch": {"planned_tasks": 54, "papers": 415, "input_rows": 1966, "documented_agents_per_batch": 8},
+    "seven_gene_batch": {"planned_tasks": 91, "papers": 1359, "A_papers": 493, "B_papers": 362, "C_papers": 504, "documented_agents_per_batch": 8},
+    "resume_policy": "per-paper output checkpoint; skip completed papers; stale running entries requeued after three hours",
+    "concurrency_interpretation": "documented dispatch policy, not measured continuous utilization"
+  }
+}

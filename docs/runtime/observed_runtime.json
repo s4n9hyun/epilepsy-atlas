@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "scope": "metadata of one retained project session and matching review subagent traces",
+  "main_session_sha256": "e73103555f8ecdeb1fc4c02463a307ef4a182383dbd1665b6f228dd8457f9a06",
+  "main_event_range_utc": [
+    "2026-09-23T06:11:50.341Z",
+    "2026-10-12T13:58:41.327Z"
+  ],
+  "entrypoints": {
+    "cli": 17567
+  },
+  "versions_by_date": {
+    "2026-09-23": [
+      "2.1.280"
+    ],
+    "2026-09-24": [
+      "2.1.280",
+      "2.1.281"
+    ],
+    "2026-09-25": [
+      "2.1.281"
+    ],
+    "2026-09-26": [
+      "2.1.282",
+      "2.1.283"
+    ],
+    "2026-09-27": [
+      "2.1.283"
+    ],
+    "2026-09-28": [
+      "2.1.283"
+    ],
+    "2026-09-29": [
+      "2.1.283"
+    ],
+    "2026-09-30": [
+      "2.1.283"
+    ],
+    "2026-10-01": [
+      "2.1.283"
+    ],
+    "2026-10-05": [
+      "2.1.284",
+      "2.1.289"
+    ],
+    "2026-10-06": [
+      "2.1.289",
+      "2.1.290"
+    ],
+    "2026-10-07": [
+      "2.1.290"
+    ],
+    "2026-10-12": [
+      "2.1.292",
+      "2.1.296"
+    ]
+  },
+  "unique_assistant_messages_by_model": {
+    "claude-opus-5-5": 3767,
+    "<synthetic>": 40
+  },
+  "unique_tool_calls_by_name": {
+    "Bash": 2724,
+    "Read": 82,
+    "Write": 82,
+    "Edit": 22,
+    "Agent": 475,
+    "ToolSearch": 10,
+    "TaskStop": 5,
+    "SendMessage": 2,
+    "WebFetch": 2,
+    "WebSearch": 3,
+    "CronCreate": 4,
+    "CronDelete": 4,
+    "AskUserQuestion": 2,
+    "ScheduleWakeup": 7,
+    "Monitor": 6,
+    "CronList": 1
+  },
+  "source_review_phases": {
+    "six_gene_source_review": {
+      "matched_trace_count": 70,
+      "first_event_utc": "2026-09-26T18:05:12.934Z",
+      "last_event_utc": "2026-09-27T14:35:29.277Z",
+      "calendar_span_hours": 20.50453972222222,
+      "median_trace_span_minutes": 2.95085,
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "versions": [
+        "2.1.283"
+      ],
+      "interpretation": "Attempts/resumptions, not unique tasks. Event spans include waiting and are not compute or human labor time."
+    },
+    "seven_gene_source_review": {
+      "matched_trace_count": 101,
+      "first_event_utc": "2026-09-28T11:08:30.411Z",
+      "last_event_utc": "2026-09-29T01:13:23.289Z",
+      "calendar_span_hours": 14.081354999999999,
+      "median_trace_span_minutes": 2.6180333333333334,
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "versions": [
+        "2.1.283"
+      ],
+      "interpretation": "Attempts/resumptions, not unique tasks. Event spans include waiting and are not compute or human labor time."
+    }
+  },
+  "cost_checkpoints": [
+    {
+      "preceding_event_timestamp_utc": "2026-09-24T00:18:42.316Z",
+      "reported_cost_usd": 120.86082779999978,
+      "reported_total_duration_ms": 84705941,
+      "reported_api_duration_ms": 11549504,
+      "reported_tool_duration_ms": 2293429,
+      "has_unknown_model_cost": false,
+      "model_usage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 915,
+          "outputTokens": 22,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.001025
+        },
+        "claude-opus-5-5[1m]": {
+          "inputTokens": 430124,
+          "outputTokens": 1034794,
+          "thinkingTokens": 282591,
+          "cacheReadInputTokens": 326571544,
+          "cacheCreationInputTokens": 5029472,
+          "webSearchRequests": 0,
+          "costUSD": 120.85980279999978
+        }
+      }
+    },
+    {
+      "preceding_event_timestamp_utc": "2026-09-25T14:51:50.524Z",
+      "reported_cost_usd": 401.1208188500006,
+      "reported_total_duration_ms": 248478936,
+      "reported_api_duration_ms": 38519741,
+      "reported_tool_duration_ms": 14125453,
+      "has_unknown_model_cost": false,
+      "model_usage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 921,
+          "outputTokens": 435,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 232593,
+          "webSearchRequests": 0,
+          "costUSD": 0.29383724999999994
+        },
+        "claude-opus-5-5[1m]": {
+          "inputTokens": 1427024,
+          "outputTokens": 3213149,
+          "thinkingTokens": 984807,
+          "cacheReadInputTokens": 1084397738,
+          "cacheCreationInputTokens": 17553356,
+          "webSearchRequests": 0,
+          "costUSD": 400.8269816000006
+        }
+      }
+    },
+    {
+      "preceding_event_timestamp_utc": "2026-09-26T09:02:36.986Z",
+      "reported_cost_usd": 477.98916745000076,
+      "reported_total_duration_ms": 267888034,
+      "reported_api_duration_ms": 46951288,
+      "reported_tool_duration_ms": 14852128,
+      "has_unknown_model_cost": false,
+      "model_usage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 22310,
+          "outputTokens": 1076,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 232593,
+          "webSearchRequests": 2,
+          "costUSD": 0.3384312499999999
+        },
+        "claude-opus-5-5[1m]": {
+          "inputTokens": 1732319,
+          "outputTokens": 3867428,
+          "thinkingTokens": 1158103,
+          "cacheReadInputTokens": 1317403206,
+          "cacheCreationInputTokens": 20435560,
+          "webSearchRequests": 0,
+          "costUSD": 477.65073620000067
+        }
+      }
+    },
+    {
+      "preceding_event_timestamp_utc": "2026-09-26T12:35:26.873Z",
+      "reported_cost_usd": 490.1040166500007,
+      "reported_total_duration_ms": 288507513,
+      "reported_api_duration_ms": 47441698,
+      "reported_tool_duration_ms": 14930389,
+      "has_unknown_model_cost": false,
+      "model_usage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 33188,
+          "outputTokens": 1522,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 232593,
+          "webSearchRequests": 3,
+          "costUSD": 0.3615392499999999
+        },
+        "claude-opus-5-5[1m]": {
+          "inputTokens": 1740508,
+          "outputTokens": 3900518,
+          "thinkingTokens": 1166037,
+          "cacheReadInputTokens": 1350899612,
+          "cacheCreationInputTokens": 21022798,
+          "webSearchRequests": 0,
+          "costUSD": 489.7424774000006
+        }
+      }
+    },
+    {
+      "preceding_event_timestamp_utc": "2026-09-27T15:27:12.440Z",
+      "reported_cost_usd": 722.0835486500014,
+      "reported_total_duration_ms": 369927081,
+      "reported_api_duration_ms": 75049640,
+      "reported_tool_duration_ms": 16430946,
+      "has_unknown_model_cost": false,
+      "model_usage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 44024,
+          "outputTokens": 1832,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 232593,
+          "webSearchRequests": 4,
+          "costUSD": 0.38392524999999994
+        },
+        "claude-opus-5-5[1m]": {
+          "inputTokens": 3571685,
+          "outputTokens": 5750208,
+          "thinkingTokens": 1783381,
+          "cacheReadInputTokens": 1836573302,
+          "cacheCreationInputTokens": 36084098,
+          "webSearchRequests": 0,
+          "costUSD": 721.6996234000015
+        }
+      }
+    },
+    {
+      "preceding_event_timestamp_utc": "2026-09-28T06:40:17.352Z",
+      "reported_cost_usd": 747.2386066500011,
+      "reported_total_duration_ms": 396588793,
+      "reported_api_duration_ms": 76767187,
+      "reported_tool_duration_ms": 16696752,
+      "has_unknown_model_cost": false,
+      "model_usage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 44024,
+          "outputTokens": 1832,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 232593,
+          "webSearchRequests": 4,
+          "costUSD": 0.38392524999999994
+        },
+        "claude-opus-5-5[1m]": {
+          "inputTokens": 3607826,
+          "outputTokens": 5885135,
+          "thinkingTokens": 1813541,
+          "cacheReadInputTokens": 1910987012,
+          "cacheCreationInputTokens": 37110647,
+          "webSearchRequests": 0,
+          "costUSD": 746.8546814000013
+        }
+      }
+    },
+    {
+      "preceding_event_timestamp_utc": "2026-09-28T11:35:28.337Z",
+      "reported_cost_usd": 876.5836618500027,
+      "reported_total_duration_ms": 399881756,
+      "reported_api_duration_ms": 89915913,
+      "reported_tool_duration_ms": 17119746,
+      "has_unknown_model_cost": false,
+      "model_usage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 44024,
+          "outputTokens": 1832,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 232593,
+          "webSearchRequests": 4,
+          "costUSD": 0.38392524999999994
+        },
+        "claude-opus-5-5[1m]": {
+          "inputTokens": 4687076,
+          "outputTokens": 6967265,
+          "thinkingTokens": 2176503,
+          "cacheReadInputTokens": 2235212663,
+          "cacheCreationInputTokens": 44470469,
+          "webSearchRequests": 0,
+          "costUSD": 876.1997366000029
+        }
+      }
+    },
+    {
+      "preceding_event_timestamp_utc": "2026-10-01T14:38:11.161Z",
+      "reported_cost_usd": 1434.237371050003,
+      "reported_total_duration_ms": 671775476,
+      "reported_api_duration_ms": 148640998,
+      "reported_tool_duration_ms": 27367039,
+      "has_unknown_model_cost": false,
+      "model_usage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 121586,
+          "outputTokens": 4719,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 232593,
+          "webSearchRequests": 9,
+          "costUSD": 0.5259222499999999
+        },
+        "claude-opus-5-5[1m]": {
+          "inputTokens": 8153348,
+          "outputTokens": 11988740,
+          "thinkingTokens": 3794479,
+          "cacheReadInputTokens": 3684910969,
+          "cacheCreationInputTokens": 71336724,
+          "webSearchRequests": 0,
+          "costUSD": 1433.7114488000032
+        }
+      }
+    },
+    {
+      "preceding_event_timestamp_utc": "2026-10-05T00:41:38.528Z",
+      "reported_cost_usd": 1623.8324366499967,
+      "reported_total_duration_ms": 683865806,
+      "reported_api_duration_ms": 172657031,
+      "reported_tool_duration_ms": 27876567,
+      "has_unknown_model_cost": false,
+      "model_usage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 121586,
+          "outputTokens": 4719,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 232593,
+          "webSearchRequests": 9,
+          "costUSD": 0.5259222499999999
+        },
+        "claude-opus-5-5[1m]": {
+          "inputTokens": 9921340,
+          "outputTokens": 13618429,
+          "thinkingTokens": 4164472,
+          "cacheReadInputTokens": 4178735447,
+          "cacheCreationInputTokens": 81387401,
+          "webSearchRequests": 0,
+          "costUSD": 1623.3065143999968
+        }
+      }
+    },
+    {
+      "preceding_event_timestamp_utc": "2026-10-06T15:53:08.941Z",
+      "reported_cost_usd": 2220.160067250009,
+      "reported_total_duration_ms": 810716186,
+      "reported_api_duration_ms": 233177073,
+      "reported_tool_duration_ms": 33245195,
+      "has_unknown_model_cost": false,
+      "model_usage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 254778,
+          "outputTokens": 7524,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 232593,
+          "webSearchRequests": 16,
+          "costUSD": 0.7431392499999998
+        },
+        "claude-opus-5-5[1m]": {
+          "inputTokens": 12235186,
+          "outputTokens": 15940927,
+          "thinkingTokens": 4710847,
+          "cacheReadInputTokens": 5734572772,
+          "cacheCreationInputTokens": 94477863,
+          "webSearchRequests": 0,
+          "costUSD": 2058.27062240001
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 602089,
+          "outputTokens": 1296957,
+          "thinkingTokens": 738354,
+          "cacheReadInputTokens": 391624158,
+          "cacheCreationInputTokens": 6699500,
+          "webSearchRequests": 0,
+          "costUSD": 147.7509235999999
+        },
+        "claude-opus-5": {
+          "inputTokens": 26,
+          "outputTokens": 59275,
+          "thinkingTokens": 11461,
+          "cacheReadInputTokens": 4635079,
+          "cacheCreationInputTokens": 1535334,
+          "webSearchRequests": 0,
+          "costUSD": 13.395382000000001
+        }
+      }
+    },
+    {
+      "preceding_event_timestamp_utc": "2026-10-07T05:26:22.771Z",
+      "reported_cost_usd": 2400.881818400011,
+      "reported_total_duration_ms": 897944547,
+      "reported_api_duration_ms": 250054100,
+      "reported_tool_duration_ms": 35841411,
+      "has_unknown_model_cost": false,
+      "model_usage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 254781,
+          "outputTokens": 8090,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 344672,
+          "webSearchRequests": 16,
+          "costUSD": 0.8860709999999998
+        },
+        "claude-opus-5-5[1m]": {
+          "inputTokens": 12235186,
+          "outputTokens": 15940927,
+          "thinkingTokens": 4710847,
+          "cacheReadInputTokens": 5734572772,
+          "cacheCreationInputTokens": 94477863,
+          "webSearchRequests": 0,
+          "costUSD": 2058.27062240001
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 1141600,
+          "outputTokens": 2283891,
+          "thinkingTokens": 1037582,
+          "cacheReadInputTokens": 1036377765,
+          "cacheCreationInputTokens": 11631635,
+          "webSearchRequests": 0,
+          "costUSD": 328.3297430000001
+        },
+        "claude-opus-5": {
+          "inputTokens": 26,
+          "outputTokens": 59275,
+          "thinkingTokens": 11461,
+          "cacheReadInputTokens": 4635079,
+          "cacheCreationInputTokens": 1535334,
+          "webSearchRequests": 0,
+          "costUSD": 13.395382000000001
+        }
+      }
+    },
+    {
+      "preceding_event_timestamp_utc": "2026-10-12T11:28:52.335Z",
+      "reported_cost_usd": 2409.0912214000095,
+      "reported_total_duration_ms": 899884487,
+      "reported_api_duration_ms": 250394322,
+      "reported_tool_duration_ms": 35878643,
+      "has_unknown_model_cost": false,
+      "model_usage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 254781,
+          "outputTokens": 8090,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 344672,
+          "webSearchRequests": 16,
+          "costUSD": 0.8860709999999998
+        },
+        "claude-opus-5-5[1m]": {
+          "inputTokens": 12235186,
+          "outputTokens": 15940927,
+          "thinkingTokens": 4710847,
+          "cacheReadInputTokens": 5734572772,
+          "cacheCreationInputTokens": 94477863,
+          "webSearchRequests": 0,
+          "costUSD": 2058.27062240001
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 1142378,
+          "outputTokens": 2313450,
+          "thinkingTokens": 1046844,
+          "cacheReadInputTokens": 1055588080,
+          "cacheCreationInputTokens": 12103266,
+          "webSearchRequests": 0,
+          "costUSD": 336.53914600000024
+        },
+        "claude-opus-5": {
+          "inputTokens": 26,
+          "outputTokens": 59275,
+          "thinkingTokens": 11461,
+          "cacheReadInputTokens": 4635079,
+          "cacheCreationInputTokens": 1535334,
+          "webSearchRequests": 0,
+          "costUSD": 13.395382000000001
+        }
+      }
+    },
+    {
+      "preceding_event_timestamp_utc": "2026-10-12T13:58:41.327Z",
+      "reported_cost_usd": 2428.1402894000075,
+      "reported_total_duration_ms": 914972225,
+      "reported_api_duration_ms": 252118571,
+      "reported_tool_duration_ms": 36121496,
+      "has_unknown_model_cost": false,
+      "model_usage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 254781,
+          "outputTokens": 8090,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 344672,
+          "webSearchRequests": 16,
+          "costUSD": 0.8860709999999998
+        },
+        "claude-opus-5-5[1m]": {
+          "inputTokens": 12235186,
+          "outputTokens": 15940927,
+          "thinkingTokens": 4710847,
+          "cacheReadInputTokens": 5734572772,
+          "cacheCreationInputTokens": 94477863,
+          "webSearchRequests": 0,
+          "costUSD": 2058.27062240001
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 1169618,
+          "outputTokens": 2463398,
+          "thinkingTokens": 1099766,
+          "cacheReadInputTokens": 1124509605,
+          "cacheCreationInputTokens": 12451795,
+          "webSearchRequests": 0,
+          "costUSD": 355.58821399999994
+        },
+        "claude-opus-5": {
+          "inputTokens": 26,
+          "outputTokens": 59275,
+          "thinkingTokens": 11461,
+          "cacheReadInputTokens": 4635079,
+          "cacheCreationInputTokens": 1535334,
+          "webSearchRequests": 0,
+          "costUSD": 13.395382000000001
+        }
+      }
+    }
+  ],
+  "cost_interpretation": "Claude Code reported cumulative estimates, not invoices. Checkpoints must not be summed. Scope includes mixed project work; excludes separately billed OpenAI extraction. Final retained counter is not total project cost.",
+  "extraction_initial_process_logs": {
+    "count": 23,
+    "per_gene": {
+      "FOXG1": 2,
+      "GABRA1": 4,
+      "KCNT1": 4,
+      "PCDH19": 4,
+      "SCN8A": 4,
+      "SMC1A": 1,
+      "STXBP1": 4
+    }
+  },
+  "sources": [
+    {
+      "workspace_relative_path": "WORKFLOW_LOG.md",
+      "sha256": "d3423362ed5ec1ccf50047a12cf5a2098ca49fea9c431478b3e0351b13a03c91"
+    },
+    {
+      "workspace_relative_path": "runs/seven_genes/source_check/README.md",
+      "sha256": "23fac4b0ab033d9ff5371d61881fbcefdfabdb00a90ca4ac56b7ec3ad25be315"
+    },
+    {
+      "workspace_relative_path": "runs/six_gene_source_check/full_source_check/README.md",
+      "sha256": "3d989d000f6fd0746e8fcb19cb57d8af3cb0ea3093c68951c79e92b8760c031b"
+    },
+    {
+      "workspace_relative_path": "runs/seven_genes/extraction/run_snapshot_202609281140.sh",
+      "sha256": "0bcf9a01f4dae6a9a52e5bb38788292b6085b667632ad60e2379d6e89b0c6172"
+    },
+    {
+      "workspace_relative_path": "scripts/core/batch_extract_patient_mentions.py",
+      "sha256": "6899147bcf19d3366ac6c5d5b0d2f4db90634475e91c271737380e8cf646db3a"
+    }
+  ],
+  "privacy": "No message text, prompts, tool arguments/results, patient records, credentials, or account identifiers exported."
+}
